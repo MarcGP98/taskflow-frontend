@@ -1,31 +1,39 @@
-TaskFlow Frontend
+# TaskFlow Frontend
 
 Interfaz de usuario para una aplicación fullstack de gestión de tareas.
 
 Permite gestionar tareas de forma visual, conectándose a una API REST.
 
-Tecnologías
+---
 
-React
-Vite
-React Router DOM
-Context API
-Fetch API
-CSS
+## Tecnologías
 
-Funcionalidades
+- React
+- Vite
+- React Router DOM
+- Context API
+- Fetch API
+- CSS
 
-Crear tareas
-Ver detalle de tareas
-Editar tareas
-Marcar tareas como completadas
-Eliminar tareas
-Buscar tareas por título
-Filtrar por estado
-Modo oscuro y claro
-Diseño responsive
+---
 
-Instalación
+## Funcionalidades
+
+- Crear tareas
+- Ver detalle de tareas
+- Editar tareas
+- Marcar tareas como completadas
+- Eliminar tareas
+- Buscar tareas por título
+- Filtrar por estado
+- Modo oscuro y claro
+- Diseño responsive
+
+---
+
+## Instalación
+
+```bash
 
 npm install
 
@@ -47,10 +55,10 @@ Estructura del proyecto
 
 front/
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── context/
+│   ├── components/   # Componentes reutilizables
+│   ├── pages/        # Vistas principales
+│   ├── services/     # Llamadas a la API
+│   ├── context/      # Estado global (tema)
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
@@ -73,6 +81,7 @@ Preparado para desplegarse en:
 
 Netlify
 Vercel
+
 Autor
 
 Marc
